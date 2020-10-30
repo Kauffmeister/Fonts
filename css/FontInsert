@@ -9,26 +9,26 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930
 font-family: Modesto;
 font-style: normal;
 font-weight: 200;
-src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930b37f1123312826d/MrEaves-SmallCaps/MrEaves-SmallCaps.otf) ;
+src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/bed335396dab3af6f96442ac23f5a2b8a6af4ee6/Nodesto/Nodesto-Caps-Condensed.otf) ;
 }
 
 @font-face{
 font-family: Bookman;
 font-style: normal;
 font-weight: 200;
-src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930b37f1123312826d/MrEaves-SmallCaps/MrEaves-SmallCaps.otf) ;
+src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/bed335396dab3af6f96442ac23f5a2b8a6af4ee6/Bookman/Bookman-Regular.otf) ;
 }
 
 @font-face{
 font-family: ScalyCaps;
 font-style: normal;
 font-weight: 200;
-src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930b37f1123312826d/MrEaves-SmallCaps/MrEaves-SmallCaps.otf) ;
+src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/bed335396dab3af6f96442ac23f5a2b8a6af4ee6/Scaly/ScalyCaps.ttf) ;
 }
 
 @font-face{
 font-family: ScalyRegular;
 font-style: normal;
 font-weight: 200;
-src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930b37f1123312826d/MrEaves-SmallCaps/MrEaves-SmallCaps.otf) ;
+src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/25cbf59092262e6604a8d73c5ef2cc92a800f68f/Scaly/ScalyRegular.ttf) ;
 }
