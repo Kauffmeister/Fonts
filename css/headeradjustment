@@ -125,6 +125,10 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/25cbf59092262e6604a8d73c5
     border-bottom-color: #B7AE7C;
 }
 
+.user-css h3.world-currentDate {
+text-transform: lowercase;
+}
+
 /* Header 3 */
 .user-css h4 {
     font-family: MrEaves;
