@@ -118,6 +118,7 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/25cbf59092262e6604a8d73c5
     font-weight: bold;
     font-size: 1.2em;
     text-transform: none;
+    margin-bottom: 0.5em
     line-height: normal;
 }
 
