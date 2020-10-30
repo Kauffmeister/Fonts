@@ -1,0 +1,34 @@
+@font-face{
+font-family: MrEaves;
+font-style: normal;
+font-weight: 200;
+src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930b37f1123312826d/MrEaves-SmallCaps/MrEaves-SmallCaps.otf) ;
+}
+
+@font-face{
+font-family: Modesto;
+font-style: normal;
+font-weight: 200;
+src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930b37f1123312826d/MrEaves-SmallCaps/MrEaves-SmallCaps.otf) ;
+}
+
+@font-face{
+font-family: Bookman;
+font-style: normal;
+font-weight: 200;
+src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930b37f1123312826d/MrEaves-SmallCaps/MrEaves-SmallCaps.otf) ;
+}
+
+@font-face{
+font-family: ScalyCaps;
+font-style: normal;
+font-weight: 200;
+src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930b37f1123312826d/MrEaves-SmallCaps/MrEaves-SmallCaps.otf) ;
+}
+
+@font-face{
+font-family: ScalyRegular;
+font-style: normal;
+font-weight: 200;
+src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930b37f1123312826d/MrEaves-SmallCaps/MrEaves-SmallCaps.otf) ;
+}
