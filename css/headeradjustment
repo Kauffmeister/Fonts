@@ -44,6 +44,13 @@ font-weight: normal;
 src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/25cbf59092262e6604a8d73c5ef2cc92a800f68f/Scaly/ScalyRegular.ttf) ;
 }
 
+@font-face{
+font-family: Solbera;
+font-style: normal;
+font-weight: normal;
+src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/388e50011d38d400b4f91a269b583ef7682f9909/Solbera/SolberaImitation.otf) ;
+}
+
 /* The following rows change the fonts per style */
 /* Paragraphs and main body */
 .user-css,
@@ -58,6 +65,15 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/25cbf59092262e6604a8d73c5
 /* Added indent for paragraphs */
 .user-css p {
     text-indent: 1em;
+}
+
+/* Drop Cap */
+.user-css .dropcap {
+    font-family: Solbera;
+    font-weight: normal;
+    font-size: 5em;
+    padding-right: 0.02em;
+    line-height: 0.8em;
 }
 
 /* Align and change links */
