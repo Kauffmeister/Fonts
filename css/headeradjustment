@@ -1,0 +1,80 @@
+.user-css,
+.user-css p,
+.user-css-extended,
+.user-css-extended p {
+    font-family: Bookman;
+}
+
+.user-css a,
+.user-css a:focus {
+    color: #58170D;
+}
+.user-css a:hover {
+    text-decoration: underline;
+    color: #962626;
+}
+
+.user-css .article-title h1 {
+    font-family: MrEaves;
+    font-weight: 700;
+    font-size: 42px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    line-height: 0.9em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.user-css .world-title {
+    font-family: MrEaves;
+    font-weight: 700;
+    font-size: 42px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    line-height: 0.9em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.user-css h2 {
+    color: #900b0b;
+    font-family: Alegreya, serif;
+    font-weight: 700;
+    font-size: 28px;
+    padding-bottom: 2px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #a08264;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+
+.user-css h3 {
+    color: #591717;
+    font-family: Alegreya SC, serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.3em;
+}
+
+.user-css h4 {
+    color: #4e392ffc;
+    font-family: Alegreya SC, serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+    line-height: 1.3em;
+}
+
+.user-css h5 {
+    color: #4e392ffc;
+    font-family: Alegreya SC, serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 1.3em;
+}
