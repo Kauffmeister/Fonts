@@ -2,35 +2,35 @@
 @font-face{
 font-family: MrEaves;
 font-style: normal;
-font-weight: 200;
+font-weight: normal;
 src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/05e67f9c31eba03b776ece930b37f1123312826d/MrEaves-SmallCaps/MrEaves-SmallCaps.otf) ;
 }
 
 @font-face{
 font-family: Modesto;
 font-style: normal;
-font-weight: 200;
+font-weight: normal;
 src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/bed335396dab3af6f96442ac23f5a2b8a6af4ee6/Nodesto/Nodesto-Caps-Condensed.otf) ;
 }
 
 @font-face{
 font-family: Bookman;
 font-style: normal;
-font-weight: 200;
+font-weight: normal;
 src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/bed335396dab3af6f96442ac23f5a2b8a6af4ee6/Bookman/Bookman-Regular.otf) ;
 }
 
 @font-face{
 font-family: ScalyCaps;
 font-style: normal;
-font-weight: 200;
+font-weight: normal;
 src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/bed335396dab3af6f96442ac23f5a2b8a6af4ee6/Scaly/ScalyCaps.ttf) ;
 }
 
 @font-face{
 font-family: ScalyRegular;
 font-style: normal;
-font-weight: 200;
+font-weight: normal;
 src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/25cbf59092262e6604a8d73c5ef2cc92a800f68f/Scaly/ScalyRegular.ttf) ;
 }
 
@@ -41,6 +41,8 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/25cbf59092262e6604a8d73c5
 .user-css-extended,
 .user-css-extended p {
     font-family: Bookman;
+    font-size: 1em;
+    line-height: normal;
 }
 
 /* Added indent for paragraphs */
@@ -62,35 +64,26 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/25cbf59092262e6604a8d73c5
 /* Article Header */
 .user-css .article-title h1 {
     font-family: MrEaves;
-    font-weight: 200;
-    font-size: 48px;
-    padding-top: 20px;
-    line-height: 0.9em;
+    font-weight: normal;
+    font-size: 3.5em;
+    padding-top: 15px;
+    padding-left: 0;
+    line-height: normal;
     margin-top: 20px;
     margin-bottom: 5px;
     letter-spacing: -1px;
     color: #58170D;
 }
 
-/* World Title */
-.user-css .world-title {
-    font-family: Modesto;
-    font-weight: 700;
-    font-size: 42px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    line-height: 0.9em;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
+
 
 /* Confusingly header 1 */
 .user-css h2 {
     font-family: MrEaves;
-    font-weight: 200;
-    font-size: 35px;
-    padding-bottom: 2px;
-    line-height: 1em;
+    font-weight: normal;
+    font-size: 2.5em;
+    text-transform: none;
+    line-height: normal;
     color: #58170D;
     border-bottom-style: none;
 }
@@ -98,53 +91,51 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/25cbf59092262e6604a8d73c5
 /* Header 2 */
 .user-css h3 {
     font-family: MrEaves;
-    font-weight: 200;
-    font-size: 28px;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: normal;
     margin-top: 0px;
     margin-bottom: 5px;
     color: #58170D;
-border-bottom-width: 3px;
+    border-bottom-width: 3px;
     border-bottom-style: solid;
     border-bottom-color: #B7AE7C;
-    line-height: 1em;
 }
 
 /* Header 3 */
 .user-css h4 {
-    color: #000000;
-    font-family: ScalyCaps;
-    font-weight: 200;
-    font-size: 22px;
-    margin: 0;
-    line-height: 1.3em;
+    font-family: MrEaves;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #58170D;
+    line-height: normal;
 }
 
 /* Header 4 */
 .user-css h5 {
-    color: #4e392ffc;
-    font-family: Alegreya SC, serif;
-    font-weight: 700;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-top: 5px;
-    margin-bottom: 0px;
-    line-height: 1.3em;
+    color: #000000;
+    font-family: ScalyCaps;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: none;
+    line-height: normal;
 }
 
 /* Following is the layout of the tables */
 /* Main table layout: explains that no borders are used, the table will allocate width of columns by itself */
 .user-css .table{
    border-style: none;
+   background: transparent !important;
    table-layout: auto;
    width: 100%;
-  white-space: pre-wrap;
+   white-space: pre-wrap;
 
 /* Table td is cells, this area explains that the background in transparent and the ScalyRegular font is used throughout. Word-break is off, thus no words are hyphenated or cut off */
 }
 .user-css .table td{
    background: transparent !important;
    font-family: ScalyRegular;
-   font-size: 14px;
+   font-size: 0.9em;
    word-break: keep-all;
 }
 
@@ -153,7 +144,9 @@ border-bottom-width: 3px;
 .user-css .table-striped th{
    background: transparent !important;
    font-family: ScalyRegular;
-   font-size: 14px;
+   font-size: 0.9em;
+    text-align: left;
+    vertical-align: middle;
    color: #000000;
    border-style: none;
 }
