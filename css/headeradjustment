@@ -1,3 +1,13 @@
+/* The Background image */
+
+.user-css-presentation {
+    background: url(https://www.worldanvil.com/uploads/maps/ef65291b6982d7f3d82c96be73e681a7.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+background-position: 20%;
+}
+
 /* The font-face elements import the fonts for use in css */
 @font-face{
 font-family: MrEaves;
@@ -75,7 +85,20 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/25cbf59092262e6604a8d73c5
     color: #58170D;
 }
 
-
+/* World Header */
+.user-css .world-title {
+    font-family: Modesto;
+    font-weight: normal;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-left: 0;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+    color: #58170D;
+}
 
 /* Confusingly header 1 */
 .user-css h2 {
