@@ -116,6 +116,21 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/388e50011d38d400b4f91a269
     color: #58170D;
 }
 
+/* Timeline Header */
+.user-css .heading h1 {
+    font-family: Modesto;
+    font-weight: normal;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-left: 0;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+    color: #4c362ffc;
+}
+
 /* Confusingly header 1 */
 .user-css h2 {
     font-family: MrEaves;
