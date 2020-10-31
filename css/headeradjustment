@@ -101,8 +101,8 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/388e50011d38d400b4f91a269
     color: #58170D;
 }
 
-/* World Header */
-.user-css .world-title {
+/* Main titles */
+.user-css h1 {
     font-family: Modesto;
     font-weight: normal;
     font-size: 4.5em;
@@ -113,7 +113,7 @@ src: url(https://rawcdn.githack.com/Kauffmeister/Fonts/388e50011d38d400b4f91a269
     margin-top: 20px;
     margin-bottom: 5px;
     letter-spacing: -1px;
-    color: #58170D;
+    color: #4c362ffc;
 }
 
 /* Confusingly header 1 */
@@ -205,22 +205,6 @@ text-transform: lowercase;
 .user-css table tr:nth-child( odd ),
 .user-css .table tr:nth-child( odd ) { 
    background: transparent !important;
-}
-
-/* Timeline */
-/* Timeline Header */
-.user-css .heading h1 {
-    font-family: Modesto;
-    font-weight: normal;
-    font-size: 4.5em;
-    text-transform: uppercase;
-    padding-top: 15px;
-    padding-left: 0;
-    line-height: normal;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    letter-spacing: -1px;
-    color: #4c362ffc;
 }
 
 .user-css .tl-heading h4 {
